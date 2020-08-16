@@ -1,0 +1,36 @@
+Running the program
+
+=======================
+
+
+Important Notes
+
+-------------
+
+The file that is needed to run the instances is main.py which can be found inside the main folder of the project
+
+All the instructions mentioned in the next steps are related to main.py file
+
+
+
+How To Run It?
+
+-------------
+
+1) To check the GI problem from a list of graphs, use the main() function call at the very end of the file with the argument "iso". So, main("iso").
+
+2) To check the Automorphism from a list of graphs use main() function call with the argument "auto". So, main("auto")
+
+3) To check for the GI problem and Automorphisms at once from a list of graphs, use the main() function call with argument "iso auto". So, main("iso auto")
+
+
+
+How To Change The Instances?
+
+-------------
+
+In order to change the instances just edit the argument of open('../basic/basicGI3') function to the instance that you want to check. This function can be found at the end of the file inside the function main()
+
+For running basic instances just use "../basic/instancefile"
+
+For running the examples from canvas use "../canvasExamples/instancefile"
